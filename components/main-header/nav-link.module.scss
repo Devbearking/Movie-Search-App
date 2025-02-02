@@ -1,0 +1,23 @@
+  
+  .Link {
+    text-decoration: none;
+    color: #574964;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .Link:hover,
+  .Link:active {
+    background: #23486A;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .active {
+    background: #ffe600;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
